@@ -1,75 +1,63 @@
-# Nuxt Minimal Starter
+# プロジェクト概要
+nodeのバージョン
+:v23.5.0
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# 本プロジェクトの作業ルール
 
-## Setup
+## 各フォルダの役割について
 
-Make sure to install dependencies:
+pages/
+:ページ単位のファイルをまとめる
 
-```bash
-# npm
-npm install
+features/
+:各ページ特有のコンポーネントをまとめる
 
-# pnpm
-pnpm install
+layouts/
+:ヘッダーやフッターなどをまとめる
 
-# yarn
-yarn install
+components/
+:各ページ共通のコンポーネントをまとめる
 
-# bun
-bun install
-```
+## 作業ルール
 
-## Development Server
+フォルダの命名規則はケバブケース（kebab-case）
 
-Start the development server on `http://localhost:3000`:
+ファイル（.vue）の命名規則は以下の通りとする
+pagesフォルダ内のファイル：ケバブケース（kabab-case）
+それ以外のフォルダのファイル：パスカルケース（PascalCase）
 
-```bash
-# npm
-npm run dev
+## 各ブランチの役割
 
-# pnpm
-pnpm dev
+各ブランチの役割は以下の通りとする
 
-# yarn
-yarn dev
+mainブランチ
+:公開用のブランチ
 
-# bun
-bun run dev
-```
+develop
+:開発環境用のブランチ
 
-## Production
+作業用ブランチ
+:実装・修正などの作業を行うブランチ
 
-Build the application for production:
+## 作業用ブランチのルール
 
-```bash
-# npm
-npm run build
+作業用ブランチのルールについては以下の通りとする
 
-# pnpm
-pnpm build
+作業用ブランチを作成するときはdevelopブランチから作成する
 
-# yarn
-yarn build
+ブランチ名については以下の通りとする
+feature/[key]-[作業内容]
 
-# bun
-bun run build
-```
+keyの種類について
+dev
+:新規に開発を行った
 
-Locally preview production build:
+fix
+:バグを修正した
 
-```bash
-# npm
-npm run preview
+change
+:差し替えを行った
 
-# pnpm
-pnpm preview
+add
+:既存のものに追加した
 
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
