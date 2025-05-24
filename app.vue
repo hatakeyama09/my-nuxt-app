@@ -1,11 +1,9 @@
 <script setup lang="ts">
-import Header from "~/layouts/header.vue";
 </script>
 
 <template>
   <div>
     <NuxtLayout>
-      <Header />
       <NuxtPage />
     </NuxtLayout>
   </div>
@@ -13,7 +11,7 @@ import Header from "~/layouts/header.vue";
 
 <style lang="css">
 body {
-  margin: 0 !important; 
+  margin: 0; 
   padding: 0;
 }
 </style>
