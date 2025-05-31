@@ -1,12 +1,3 @@
 <template>
-    
+    ホームの内容が表示されます
 </template>
-
-<script setup>
-import Header from '~/layouts/header.vue';
-
-</script>
-
-<style scoped>
-
-</style>

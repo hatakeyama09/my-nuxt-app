@@ -1,3 +1,3 @@
 <template>
-    <p>ヘッダー</p>
+    <p>フッター</p>
 </template>
