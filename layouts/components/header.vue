@@ -39,8 +39,6 @@
   display: flex;
   gap: 20px;
   list-style: none;       /* 黒丸を消す */
-  margin: 0;
-  padding: 0;              /* ブラウザのデフォルト余白を削除 */
 }
 
 .header-link {
