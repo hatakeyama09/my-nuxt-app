@@ -42,7 +42,6 @@
 }
 
 .header-link {
-  background-color: transparent;
   border: 1px solid transparent;
   border-radius: 6px;
   color: #333;
