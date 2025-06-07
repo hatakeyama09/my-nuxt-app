@@ -44,6 +44,10 @@ a {
   background-color: transparent;
 }
 
+ul {
+  list-style: none;
+}
+
 abbr[title] {
   border-bottom: none; 
   text-decoration: underline; 

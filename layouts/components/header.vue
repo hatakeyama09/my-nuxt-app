@@ -38,7 +38,6 @@
 .menu-item ul {
   display: flex;
   gap: 20px;
-  list-style: none;       /* 黒丸を消す */
 }
 
 .header-link {
