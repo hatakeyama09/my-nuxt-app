@@ -1,10 +1,10 @@
 <template>
     <Header />
     <slot />
-    <Foorer />
+    <Footer />
 </template>
 
 <script setup>
 import Header from './components/header.vue';
-import Foorer from './components/foorer.vue';
+import Footer from './components/footer.vue';
 </script>
